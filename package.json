@@ -5,8 +5,11 @@
     "jest-enzyme": "^7.1.2",
     "next": "^9.2.2",
     "next-routes": "^1.4.2",
+    "now": "^17.1.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.1.2",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
@@ -26,9 +29,8 @@
   },
   "scripts": {
     "test": "jest",
-    "dev": "next -p 8001",
+    "dev": "next -p 8000",
     "build": "next build",
-    "start": "next start",
-    "start:production": "NODE_ENV=production next"
+    "start": "next start"
   }
 }

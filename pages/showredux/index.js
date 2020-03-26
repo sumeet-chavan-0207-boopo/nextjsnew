@@ -1,4 +1,4 @@
-import Counter from '../../src/atmos/Counter'
+import Counter from '../../src/components/atmos/Counter'
 
 export default function Showredux() {
 

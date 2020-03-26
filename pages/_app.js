@@ -1,6 +1,6 @@
 import App from "next/app";
 import React from "react";
-import Layout from "../src/atmos/Layout";
+import Layout from "../src/components/atmos/Layout";
 
 class MyApp extends App {
   render() {

@@ -19,7 +19,7 @@
 // }
 
 import Link from 'next/link';
-import Listing from '../src/molecules/Listing/listing'
+import Listing from '../src/components/molecules/Listing/listing'
 import {configs} from '../config.js'
 
 export default function Index() {
