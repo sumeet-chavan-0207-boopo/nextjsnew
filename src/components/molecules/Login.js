@@ -24,10 +24,10 @@ const responseFacebook = (response) => {
     /> 
 
      <FacebookLogin
-        appId="1725420477708303"
+        appId="1507659512736081"
         autoLoad={true}
         fields="name,email,picture"
-    callback={responseFacebook} />
+        callback={responseFacebook} />
 
 
     </div>
