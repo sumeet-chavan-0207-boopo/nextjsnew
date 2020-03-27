@@ -16,7 +16,7 @@ const responseFacebook = (response) => {
   return <div>
      
       <GoogleLogin
-        clientId="563752908485-2qt9f3au119j44l7eev02hhsj4s8ame7.apps.googleusercontent.com"
+        clientId="563752908485-hvo0ptgkd0s946aj4ngb6skhgkan569m.apps.googleusercontent.com"
         buttonText="Login"
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
