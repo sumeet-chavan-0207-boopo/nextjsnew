@@ -20,13 +20,15 @@
 
 import Link from 'next/link';
 import Listing from '../src/components/molecules/Listing/listing'
+import Login from '../src/components/molecules/Login'
 import {configs} from '../config.js'
 
 export default function Index() {
 
-  console.log(configs)
+ 
   return (
       <div>
+       <Login/>
        <Listing/>
       </div>
    
