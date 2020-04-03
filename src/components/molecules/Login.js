@@ -27,8 +27,6 @@ const responseFacebook = (response) => {
         appId="1507659512736081"
         autoLoad={false}
         callback={responseFacebook} />
-
-
-    </div>
+     </div>
 }
   export default Login  
