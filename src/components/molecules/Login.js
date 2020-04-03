@@ -6,8 +6,8 @@ import FacebookLogin from 'react-facebook-login';
 const Login = () => {
       
       
- const responseGoogle = (response) => {
-        console.log(response);
+ const responseGoogle = (responses) => {
+        console.log(responses);
     }
 const responseFacebook = (response) => {
     console.log(response);
